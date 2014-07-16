@@ -2,8 +2,10 @@
 //  ViewController.swift
 //  RDPen
 //
-//  Created by 片桐奏羽 on 2014/07/16.
-//  Copyright (c) 2014年 Rodhos Soft. All rights reserved.
+//  Created by KatagiriSo on 2014/07/15.
+//  Copyright (c) 2014年 KatagiriSo
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 
 import UIKit

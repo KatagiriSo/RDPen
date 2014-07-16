@@ -12,6 +12,8 @@
 		3262159D1976332B004A92C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3262159B1976332B004A92C8 /* Main.storyboard */; };
 		3262159F1976332B004A92C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3262159E1976332B004A92C8 /* Images.xcassets */; };
 		326215AB1976332B004A92C8 /* RDPenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326215AA1976332B004A92C8 /* RDPenTests.swift */; };
+		326215B719763371004A92C8 /* RDPen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326215B619763371004A92C8 /* RDPen.swift */; };
+		326215B919763390004A92C8 /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326215B819763390004A92C8 /* SView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		326215A41976332B004A92C8 /* RDPenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDPenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326215A91976332B004A92C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326215AA1976332B004A92C8 /* RDPenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPenTests.swift; sourceTree = "<group>"; };
+		326215B619763371004A92C8 /* RDPen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDPen.swift; sourceTree = "<group>"; };
+		326215B819763390004A92C8 /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		326215941976332B004A92C8 /* RDPen */ = {
 			isa = PBXGroup;
 			children = (
+				326215B819763390004A92C8 /* SView.swift */,
+				326215B619763371004A92C8 /* RDPen.swift */,
 				326215971976332B004A92C8 /* AppDelegate.swift */,
 				326215991976332B004A92C8 /* ViewController.swift */,
 				3262159B1976332B004A92C8 /* Main.storyboard */,
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326215B919763390004A92C8 /* SView.swift in Sources */,
 				3262159A1976332B004A92C8 /* ViewController.swift in Sources */,
 				326215981976332B004A92C8 /* AppDelegate.swift in Sources */,
+				326215B719763371004A92C8 /* RDPen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
